@@ -10,9 +10,22 @@
 		53F134942E919B0300C97C00 /* CameraPlus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CameraPlus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		53F134AD2E919D1500C97C00 /* Exceptions for "CameraPlus" folder in "CameraPlus" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 53F134932E919B0300C97C00 /* CameraPlus */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		53F134962E919B0300C97C00 /* CameraPlus */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				53F134AD2E919D1500C97C00 /* Exceptions for "CameraPlus" folder in "CameraPlus" target */,
+			);
 			path = CameraPlus;
 			sourceTree = "<group>";
 		};
@@ -256,6 +269,9 @@
 				DEVELOPMENT_TEAM = XSWBHFX4XG;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CameraPlus/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Take pictures to apply filters to them";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Select images to apply filters to";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -288,6 +304,9 @@
 				DEVELOPMENT_TEAM = XSWBHFX4XG;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CameraPlus/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Take pictures to apply filters to them";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Select images to apply filters to";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
